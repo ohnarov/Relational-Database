@@ -1,0 +1,18 @@
+stdout, stderr, stdin
+1> 2> >>
+<command_1> | <command_2>
+read <input>
+cat <file>
+#word count prints some info about a file. -l, -w, -m
+wc <flags> <input>
+#is a command for searching for patterns in text.
+grep <flags> <--color, -o, -n, -c> '<pattern>' <input>
+#reg expressions meow[a-z]*
+#command for replacing text
+sed 's/<pattern_to_replace>/<text_to_replace_it_with>/<flags>' <input>
+# A, g, i flags
+#-E flag to use reg expressions
+#sample 
+sed -E 's/([0-9]+).*/\1/'
+#is a command to view the difference between two files.
+diff
